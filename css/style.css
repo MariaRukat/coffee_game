@@ -38,6 +38,19 @@ body {
   height: 60px;
 }
 
+.face {
+    background-image: url("../images/face1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.coffee {
+    background-image: url("../images/coffee1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #over {
     position: fixed;
     width: 100%;
