@@ -7,6 +7,7 @@ class Game{
             this.face = new Face();
             this.coffee = new Coffee();
             this.score = 0;
+            this.speed = 500;
         }
 
         index(x,y){
@@ -16,7 +17,7 @@ class Game{
         startGame(){
             this.interval = setInterval(()=> {
                 this.moveFace();
-            },300);
+            },this.speed);
         }
 
         showFace(){
@@ -73,6 +74,9 @@ class Game{
                 document.querySelector('#score strong').innerText = this.score;
                 this.coffee = new Coffee();
                 this.showCoffee();
+                clearInterval(this.interval);
+                this.speed = this.speed - 50;
+                this.startGame();
             }
         };
     
