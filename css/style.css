@@ -75,3 +75,24 @@ body {
 .invisible {
     display: none;
 }
+
+.end-face {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.sleepy-face {
+    background-image: url("../images/face1.png");
+    background-size: cover;
+}
+
+.rested-face {
+    background-image: url("../images/face2.png");
+    background-size: cover;
+}
+
+.happy-face {
+    background-image: url("../images/face3.png");
+    background-size: cover;
+}

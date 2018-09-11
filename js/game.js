@@ -82,6 +82,13 @@ class Game{
                 this.hideVisibleFace();
                 document.querySelector('#over').classList.remove('invisible');
                 document.querySelector('#over strong').innerText = this.score;
+                if(this.score >=4){
+                    document.querySelector('#over .end-face').classList.add("happy-face");
+                }else if(this.score >=2){
+                    document.querySelector('#over .end-face').classList.add("rested-face");
+                }else{
+                    document.querySelector('#over .end-face').classList.add("sleepy-face");
+                }
             }
         };
 }
