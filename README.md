@@ -16,5 +16,5 @@ https://mariarukat.github.io/coffee_game/index.html
   * Webpack
 
 ## To-do
-  * Change the speed of player with every cup of coffee gained
-  * Add a feature to the score-box - an image relevant to the score (sleepy or energetic face)
+  * Change the speed of player with every cup of coffee gained [DONE]
+  * Add a feature to the score-box - an image relevant to the score (sleepy or energetic face) [DONE]
